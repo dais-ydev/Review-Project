@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Daisy.org</title>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body id="body">
+    <header >
+      <div class="header-container">
+        <div class="logo-nav">
+          <i id="menu-bar" class="fa-solid fa-bars menu-bar hide"></i>
+          <img src="logo/logo-square-noBg/2.svg" 
+            alt="header-logo" 
+            aria-label="header-logo"
+            class="logo-img">
+
+          <div class="header-nav header-nav-mb">
+            <a href="">ORIGINALS</a>
+            <a href="">GENRES</a>
+            <a href="">POPULAR</a>
+            <a href="">CANVAS</a>
+          </div>
+        </div>
+        <div class="searchbar-container">
+          <input type="search" name="search-bar" id="search-bar" placeholder="Search" class="search-bar">
+        </div>
+        <div>
+          <i class="fa-solid fa-user user hide"></i>
+          <button class="login-button" type="button">Log-in</button>
+          <button class="signup-button" type="button">Sign-up</button>
+          <label class="switch" for="switch" id="switch-container">
+            <input class="theme-checkbox" type="checkbox" name="" id="switch">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="ads flex-center">
+        <div id="banner-container" class="banner-container">
+          <img src="img/wotakoi-banner.svg" alt="">
+          <img src="img/windbreaker-banner.svg" alt="">
+          <img src="img/lookism-banner.svg" alt="">
+          <img src="img/eleceed-banner.svg" alt="">
+          <img src="img/tbate-banner.svg" alt="">
+          <nav class="banner-nav">
+            <input type="radio" name="bannerRadio" id="" value="0" class="radio">
+            <input type="radio" name="bannerRadio" id="" value="1" class="radio">
+            <input type="radio" name="bannerRadio" id="" value="2" class="radio">
+            <input type="radio" name="bannerRadio" id="" value="3" class="radio">
+            <input type="radio" name="bannerRadio" id="" value="4" class="radio">
+          </nav>
+        </div>
+        <div class="notice flex-center">
+          <div class="notice-1">
+            <img src="img/notice-2a.svg" alt="">
+          </div>
+          <div class="notice-2">
+            <img src="img/notice-1a.svg" alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
